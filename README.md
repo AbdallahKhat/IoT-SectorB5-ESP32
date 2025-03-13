@@ -6,23 +6,17 @@ The **Internet of Things (IoT)** is a network of physical devices that communica
 To facilitate efficient and lightweight communication in IoT applications, various communication protocols are used. One of the most popular is **MQTT (Message Queuing Telemetry Transport)**.
 
 **Key Components**
+  1- Sensors / Actuators
+  2- Connectivity 
+  3- Modem 
+  4- User Interface
+---
 
-1 - Sensors / Actuators
 
-2 - Connectivity 
-
-3 - Modem 
-
-4 - User Interface
-*********************************
 **Layerd Architechture**
-
 1 - Perception Layes
-
 2 - Network Layes
-
 3 - Processing Layer
-
 4- Application Layer
 
 
