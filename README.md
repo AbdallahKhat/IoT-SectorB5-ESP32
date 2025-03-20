@@ -2,7 +2,7 @@
 
 
 
-## what is the IOT
+## What is the IOT
 
 The **Internet of Things (IoT)** refers to a vast network of interconnected physical devices that communicate and exchange data over the internet. These devices include sensors, embedded systems, industrial automation equipment, smart home appliances, and more. IoT enables seamless data collection, analysis, and automation, transforming industries and everyday life.
 
@@ -204,5 +204,16 @@ To use MQTT, you need:
 - **Healthcare:** Remote patient monitoring.
 - **Agriculture:** Smart irrigation and weather monitoring.
 
+---
+
 ## Practical Implementation
 To explore how we applied these concepts in a real-world project using ESP32 and MQTT, check the detailed source code breakdown [here](project-details.md).
+
+## 👥 Contributors
+- [@Eng-abdelhamed](https://github.com/Eng-abdelhamed)
+- [@zeyadkhaled3](https://github.com/zeyadkhaled3)
+- [@AbdallahKhat](https://github.com/AbdallahKhat)
+- [@MohamedElsayed-21](https://github.com/MohamedElsayed-21)
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
