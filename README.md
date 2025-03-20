@@ -203,3 +203,6 @@ To use MQTT, you need:
 - **Industrial IoT:** Monitoring machinery and predictive maintenance.
 - **Healthcare:** Remote patient monitoring.
 - **Agriculture:** Smart irrigation and weather monitoring.
+
+## Practical Implementation
+To explore how we applied these concepts in a real-world project using ESP32 and MQTT, check the detailed source code breakdown [here](project-details.md).
