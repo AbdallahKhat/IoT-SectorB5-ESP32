@@ -124,7 +124,7 @@ void loop() {
 2. **Read PIR Sensor Data**:
    - Use `digitalRead()` to check the PIR sensor's state (motion detected or not).
 3. **Publish Sensor Data to MQTT**:
-   - If motion is detected, publish `1` to a topic (e.g., `/Test/PIRtest`).
+   - If motion is detected, publish `1` to a topic (e.g., `/test/PIRtest`).
    - If no motion is detected, publish `0` to the same topic.
 
 4. **Control the LED Based on MQTT Messages**:
@@ -186,11 +186,18 @@ void loop() {
 
   // Read PIR sensor state
   int pirState = digitalRead(PIR_SENSOR_PIN);
-  if (pirState == HIGH) {
-    client.publish("/Test/PIRtest", "1"); // Motion detected
-  } else {
-    client.publish("/Test/PIRtest", "0"); // No motion
+  
+  // Implement a non-blocking 1 second delay
+  static unsigned long time = 0;
+  if ((millis() - time) >= 1000) {
+
+    if (pirState == HIGH) {
+      client.publish("/test/PIRtest", "1"); // Motion detected
+    } else {
+      client.publish("/test/PIRtest", "0"); // No motion
+    }
+    
+    time = millis();
   }
-  delay(1000); // Wait for 1 second before checking again
 }
 ```
