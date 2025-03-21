@@ -217,3 +217,8 @@ To explore how we applied these concepts in a real-world project using ESP32 and
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
+
+## 📽️ Demo Video
+Click the thumbnail below to view the project demo on YouTube Shorts:
+
+[![Watch the Demo](https://img.youtube.com/vi/KN6_ot1hBo0/0.jpg)](https://youtu.be/KN6_ot1hBo0)
