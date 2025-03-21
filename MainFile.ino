@@ -34,6 +34,13 @@ PubSubClient client(espClient);  // MQTT client instance
 
 
 // ----------------------------------------------------------
+// Function Prototypes
+// ----------------------------------------------------------
+
+bool isNumeric(const String &str);
+void callback(char *topic, byte *payload, unsigned int length);
+
+// ----------------------------------------------------------
 // Functions
 // ----------------------------------------------------------
 
